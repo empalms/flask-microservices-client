@@ -25,4 +25,4 @@ ADD . /usr/src/app
 RUN npm run build
 
 # start app
-CMD ["npm", "start"]
+CMD ["pushstate-server", "build"]
